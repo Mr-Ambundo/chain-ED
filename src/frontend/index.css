@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@import "tailwindcss";
+
+
+
+body {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 50vw;
+  max-height: 25vw;
+  display: block;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  flex-flow: row wrap;
+  max-width: 40vw;
+  margin: auto;
+  align-items: baseline;
+}
+
+button[type="submit"] {
+  padding: 5px 20px;
+  margin: 10px auto;
+  float: right;
+}
+
+#greeting {
+  margin: 10px auto;
+  padding: 10px 60px;
+  border: 1px solid #222;
+}
+
+#greeting:empty {
+  display: none;
+}
+
+/* .lms-progress-bar-fill {
+  @apply h-full bg-gradient-to-r from-lms-medium to-lms-deep transition-all duration-300 ease-in-out;
+}
+
+.lms-button-primary {
+  @apply bg-gradient-to-r from-lms-medium to-lms-deep text-white rounded-lg px-4 py-2 font-medium hover:opacity-90 transition-opacity;
+}
+
+.lms-button-secondary {
+  @apply bg-white text-lms-deep border border-lms-medium rounded-lg px-4 py-2 font-medium hover:bg-gray-50 transition-colors;
+}
+
+.lms-sidebar-link:hover {
+  @apply bg-lms-light/10 hover:text-lms-deep;
+}
+
+.lms-sidebar-link.active {
+  @apply bg-lms-light/20 text-lms-deep font-medium;
+} */

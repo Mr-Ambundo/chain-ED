@@ -1,2 +1,2 @@
 # chain-ED
-Bringing education on-chain
+Bringing Education Onchain
